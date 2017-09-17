@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F8EEB830-A2F1-20E9-1022-AEA1B82A7161}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\Chart And Graph\AutoFloatInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\AxisInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\BarChartInspetor.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\CategoryLabelsInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\ChartDataEditor.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\ChartEditorCommon.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\ChartOrientedSizeInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\EditorMenu.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\GraphChartInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\GroupLabelsInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\ItemLabelsBaseEditor.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\ItemLabelsInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\MaterialTilingInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\PieChartInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\RadarChartInspector.cs" />
+     <Compile Include="Assets\Editor\Chart And Graph\RenameWindow.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\CorePreferences.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\CustomEditorBase.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\CustomPropertyDrawerBase.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\EmptyFolderUtility.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\LeapHandControllerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\LeapImageRetrieverEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\LeapServiceProviderEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\Tests\FrameValidator.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\Tests\HandFactoryTest.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Editor\Tests\TransformCopyTest.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Algorithms\Editor\Tests\SlidingMaxTest.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Editor\TransformTweenBehaviourEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Animation\Tween\Editor\Tests\TweenTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Attachments\Editor\AttachmentHandsEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Attributes\Editor\CombinablePropertyDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\AssetFolderPropertyDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\SerializableDictionaryEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\SerializableHashSetEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\StreamingAssetPropertyDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\StreamingFolderPropertyDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\Tests\DequeTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\Tests\MinHeapTest.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\Tests\MultiTypedListTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\Tests\MultiTypedReferenceTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\DataStructures\Editor\Tests\ProduceConsumeBufferTest.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Editor\ListAndArrayExtensionTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Query\Editor\QueryTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Editor\CommentEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Editor\EnumEventTableEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Editor\Hotkeys.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Editor\SingleLayerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\Editor\TransformUtilTests.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\VR\Editor\EyeTypeEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Core\Scripts\VR\Editor\LeapTemporalWarpingEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\EditorPickingMeshRebuilder.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\LeapGraphicEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\LeapGraphicGroupEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\LeapGraphicPreferences.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\LeapGraphicRendererEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Editor\MeshRendererConversion.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\BlendShape\Editor\LeapBlendShapeDataDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\BlendShape\Editor\LeapBlendShapeFeatureDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Editor\CustomChannelDataDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\CustomChannel\Editor\CustomChannelFeatureDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Sprite\Editor\LeapSpriteDataDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Sprite\Editor\LeapSpriteFeatureDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Texture\Editor\LeapTextureDataDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Texture\Editor\LeapTextureFeatureDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Tint\Editor\LeapRuntimeTintDataDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Features\Tint\Editor\LeapRuntimeTintFeatureDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\Editor\LeapPanelOutlineGraphicEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Graphics\ProceduralMeshGraphics\Editor\LeapSlicedGraphicEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\Editor\LeapBakedRendererDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\Editor\LeapDynamicRendererDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\Editor\LeapMesherBaseDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\RenderingMethods\Editor\LeapTextRendererDrawer.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\GraphicRenderer\Scripts\Utility\Editor\VariantEnabler.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\Editor\LeapHandsAutoRigEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\Editor\TransformHandleEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\Editor\WorkstationBehaviourEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\ContactBoneParentEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionBehaviourEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionControllerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionHandEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionManagerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Editor\InteractionVRControllerEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Editor\AnchorableBehaviourEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Editor\AnchorEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Editor\InteractionButtonEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Editor\InteractionSliderEditor.cs" />
+     <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\Editor\InteractionControllerSwitcherEditor.cs" />
+     <None Include="Assets\Chart and Graph\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\GraphicRenderer.cginc" />
+     <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
+     <None Include="Assets\Resources\Vitech Data\timeline.txt" />
+     <None Include="Assets\Unity3DGlobe\3D Quest Markers\Read Me.txt" />
+     <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\InternalPackShader.shader" />
+     <None Include="Assets\Chart and Graph\Shaders\GradientWorldSpace.shader" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Materials\pie-1\StandardCullOff.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\BakedRenderer.cginc" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Textures\cc0-license\License.txt" />
+     <None Include="Assets\LeapMotion\Core\readme.txt" />
+     <None Include="Assets\LeapMotion\Core\Resources\RuntimeGizmos.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\BakedSurface.shader" />
+     <None Include="Assets\Unity3DGlobe\Shaders\UnlitVertexColor.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicSurfaceTransparent.shader" />
+     <None Include="Assets\Unity3DGlobe\3D Quest Markers\Shaders\GradientRimlightNoLight.shader" />
+     <None Include="Assets\LeapMotion\Core\Dependencies.txt" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\DynamicRenderer.cginc" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\CylindricalSpace.cginc" />
+     <None Include="Assets\Chart and Graph\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Chart and Graph\Shaders\GradientCanvas.shader" />
+     <None Include="Assets\Unity3DGlobe\3D Quest Markers\Shaders\GradientNoLight.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicSurface.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicUnlit.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\BakedUnlit.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Materials\bar-3\StandardCullOff.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Resources\SphericalSpace.cginc" />
+     <None Include="Assets\Chart and Graph\Shaders\GradientWorldSpaceOutline.shader" />
+     <None Include="Assets\Chart and Graph\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Chart and Graph\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Examples\Shaders\Dynamic_SurfaceExample1.shader" />
+     <None Include="Assets\Chart and Graph\Themes\3d\Pie\Theme 5\Materials\StandardCullOff.shader" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Materials\pie-3d-3\StandardCullOff.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Examples\Shaders\Baked_SurfaceExample1.shader" />
+     <None Include="Assets\Unity3DGlobe\3D Quest Markers\Shaders\Gradient.shader" />
+     <None Include="Assets\Resources\Vitech Data\participants.txt" />
+     <None Include="Assets\LeapMotion\Core\Version.txt" />
+     <None Include="Assets\Unity3DGlobe\Shaders\EarthShader.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\VertexOffsetShader.shader" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicUnlitTransparent.shader" />
+     <None Include="Assets\Unity3DGlobe\3D Quest Markers\Shaders\GradientRimlight.shader" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Materials\bar-1\StandardCullOff.shader" />
+     <None Include="Assets\Chart and Graph\Themes\Common\Meshes\cc0-license\License.txt" />
+     <None Include="Assets\LeapMotion\Modules\GraphicRenderer\Shaders\DynamicText.shader" />
+     <None Include="Assets\Chart and Graph\Shaders\SolidCanvasShader.shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="ApiAiSDK">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/API.AI/ApiAiSDK/lib/ApiAiSDK.dll</HintPath>
+ </Reference>
+ <Reference Include="fastJSON">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/API.AI/ApiAiSDK/lib/fastJSON.dll</HintPath>
+ </Reference>
+ <Reference Include="AssetStoreTools">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/API.AI/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+ </Reference>
+ <Reference Include="AssetStoreToolsExtra">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/API.AI/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/LeapMotion/Core/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="InteractionEngineUtility">
+ <HintPath>C:/Users/Tejas/projects/unity_projects/Leap Data Visualizer/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F102D884-26A3-98D1-A601-C61CA16DDAE1}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
