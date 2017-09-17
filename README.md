@@ -14,7 +14,8 @@ We used a variety of statistical algorithms, all of which have runtime less than
 ## Challenges we ran into
 - Too much food 
 - Too many chairs 
-- Too less sleep Writing up this post
+- Too less sleep 
+- Writing up this post
 
 ## Accomplishments that we're proud of
 Splitting the application into two principal components and combining them together in a very efficient manner. Our team had split up to divide and conquer to solve this problem and through good coding practices, we managed to do it.
