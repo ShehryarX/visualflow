@@ -1,4 +1,7 @@
 # VisualFlow
+
+by Shehryar Assad, Moshe Rienhart, Tejas Shah & Sarvesh Kumar
+
 ## Inspiration
 Lots of data is necessarily that useful in all its forms. Visual flow is a complex, yet elegant solution to making data easier to making trends and factors more apparent. It leverages and artificial intelligence network that allows users to query the application for potential factors using natural language processing. Overall, it makes asking questions about why the data looks that way it does, much, much more elegant.
 
